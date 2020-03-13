@@ -1,0 +1,14 @@
+{
+  "name": "crud-app",
+  "version": "1.0.0",
+  "description": "A simple CRUD application",
+  "main": "index.js",
+  "scripts": {
+    "mock:api" : "json-server --watch api/db.json --port 4000"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.16.1"
+  }
+}

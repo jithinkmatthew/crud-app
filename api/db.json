@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Tyson",
+      "lastName": "Reg",
+      "gender": "male",
+      "email": "tyson@gmail.com",
+      "password": "test@123",
+      "terms": true
+    },
+    {
+      "firstName": "Adam",
+      "lastName": "Boris",
+      "gender": "male",
+      "email": "adam@gmail.com",
+      "password": "test@123`",
+      "terms": "true",
+      "id": 2
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Microsoft"
+    },
+    {
+      "id": 2,
+      "name": "Facebook"
+    },
+    {
+      "id": 3,
+      "name": "Amazon"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "postname": "Bla"
+    },
+    {
+      "id": 2,
+      "postname": "Blu"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <form action="http://localhost:4000/users" method="POST">
+        <h1>SignUp Form</h1> <br>
+        First Name : <input type="text" name="firstName" required> <br> <br>
+        Last Name : <input type="text" name="lastName" required> <br> <br>
+
+        <label for="male">Male:
+            <input id="male" type="radio" name="gender" value="male" required>
+        </label>
+        <label for="female">Female
+            <input id="female" type="radio" name="gender" value="female" required>
+        </label><br><br>
+
+        Email : <input type="text" name="email" required> <br><br>
+        Password : <input type="password" name="password" required> <br><br>
+
+        <label for="terms">
+            <input id="terms" type="checkbox" name="terms" value="true" required> By clicking on Submit you agree on
+            our <a href="https://policies.google.com/" target=_blank>Terms and Privacy</a><br><br>
+
+            <input type="submit"> <input type="reset">
+            
+    </form>
+</body>
+
+</html>
